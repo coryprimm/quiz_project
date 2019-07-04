@@ -1,0 +1,54 @@
+
+
+<h2> Create a New Quiz Category</h2>
+
+<div id="form_div">
+  <form (submit) = "createNewQuiz()">
+    <div class="centerme">
+        <div class="padtitles">
+          <label class="creation_titles" for="author">AUTHOR </label><br>
+        </div>
+      <input id="authsize" type="text" name="newQuiz.author" [(ngModel)]="newQuiz.author" placeholder="Type Author"  #quiz.author='ngModel'>
+          <!-- <div id="showme1" *ngIf="errorsObject.author !== 'undefined'"> 
+          <p *ngFor="let item of errorsObject.author | keyvalue">
+            {{ item.value.message }}
+          </p>
+        </div> -->
+    </div>
+
+    <div class="centerme">
+      <div class="padtitles">
+        <label class="creation_titles"  for="title">TITLE </label><br>
+      </div>
+      <!-- class="form-control text-line" [ngClass]="{'red-border-class': errorsObject}" -->
+      <input id="titlesize" type="text" name="newQuiz.title" [(ngModel)]="newQuiz.title"  placeholder="Type Title"  #quiz.title='ngModel' >
+      <!-- <div id="showme2"  *ngIf="errorsObject.title !== 'undefined'">
+          <p *ngFor="let item of errorsObject.title | keyvalue">
+            {{ item.value.message }}
+          </p>
+        </div> -->
+    </div>
+    <div class="centerme">
+      <div class="padtitles">
+      <label class="creation_titles" for="title">DESCRIPTION </label> <br>
+      </div>
+      <textarea id="descsize" name="newQuiz.description" rows="40" cols="50" placeholder="Type Description" class="form-control text-line"  [(ngModel)]="newQuiz.description"  #quiz.title='ngModel' ></textarea>
+        <!-- <div id="showme3"  *ngIf="errorsObject.description !== 'undefined'">
+          <p *ngFor="let item of errorsObject.description | keyvalue">
+            {{ item.value.message }}
+          </p>
+        </div> -->
+    </div>
+  
+
+    <div class="pad_the_button">
+    <input id="addquiz" type="submit" value="Add Quiz" ng-disabled="myForm.$invalid"> 
+    <button id="backbutton" [routerLink] = "['/quizzes']">Cancel</button>
+    </div>
+
+  </form>
+</div>
+
+<!-- <div class = "subjects_div">
+    <img src="assets/images/subjects.png" alt="picture of a various subjects">
+</div> -->

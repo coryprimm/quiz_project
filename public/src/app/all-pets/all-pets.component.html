@@ -1,0 +1,62 @@
+<!-- <div id="scrollbar">
+
+  ::-webkit-scrollbar
+  ::-webkit-scrollbar-track
+  ::-webkit-scrollbar-thumb
+  ::-webkit-scrollbar-thumb:hover
+</div> -->
+<div id="bigwrapper">
+<div id="not_scrollbar">
+  <div id="second_line">
+      <h1>Welcome Everyone! </h1>
+  </div>
+
+  <div id = "intro">
+      <h3>   Quiz yourself was created to accelerate the speed of learning. By allowing you to tag what terms you need more work on you can breeze past what you already know. </h3>
+  </div>
+
+    <!-- Think of how unintentionally when you go through flash cards, or over a text book, you are revisiting the terms and questions you already know. Quiz yourself allows you to remove the redundancy by tagging terms as easy or hard so you can spend your time where you need to.  Additional features allow you to create a memory map, and record what makes some terms so tough so you can decode your own mind! -->
+
+  <div id = "brainimagecont">
+      <img src="assets/images/brain2.jpg" alt="picture of a brain with a door to its core">
+  </div>
+    <!-- Image of a notebook -->
+    <!-- Suggestion box -->
+    <!-- Image of a notebook -->
+  <div id ="instructions">
+      <div id="fourth_line">
+    <h2>How to start</h2>
+  </div>
+  <div id="ul_div">
+    <ul>
+      <li> Step 1: Create a new study topic, by clicking "Create Quiz". <br>
+        Or enter a pre-existing topic by clicking on the button associated with it below.
+      </li><br>
+      <li> Step 2: Enter terms to study and their answers by clicking add to quiz and submitting the appropriate info.</li><br>
+      <li> Step 3: Take a random quiz when you have all the terms you want to remember submitted by clicking "Random Quiz". And that's it. As you take the random quiz you can mark the questions as easy or hard and then focus your time on the ones that are hard!</li><br>
+      <li>Step 4: Ok I lied but it was for your own good. The final step is to retake your original quiz or the easy quiz once you are sure you have all the terms down. If you mess up, at least you know you studied optimally and you will get it. </li>
+    </ul>
+  </div>
+  </div>
+
+
+
+  <div id="select_area">
+  
+    <div id="create_button">
+        <button [routerLink] = "['/quizzes/new']">CREATE A NEW QUIZ</button>
+    </div>
+    <div id="for_font">
+    <h2>OR OPEN AN EXISTING QUIZ</h2>
+  </div>
+    <div id="buttonscontained" *ngFor="let quiz of allQuizzes">
+      <div class="cute_button">
+          <h1><button [routerLink] = "['/quizzes', quiz._id, 'details']">{{quiz.title}}</button></h1>
+          </div>
+      </div>
+    </div>
+
+</div>
+<br>
+
+</div>

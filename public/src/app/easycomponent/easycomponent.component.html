@@ -1,0 +1,24 @@
+<h1 id="umbrellatitle">Terms that are easy to remember from {{term.quiztitle}}</h1>
+
+
+<h1 class="hardquestion">Question </h1>
+<h1 class="questiondiv">{{term.question}}</h1>
+<textarea cols=60 rows=10>    </textarea><br>
+<div id="movebuttonsright">
+    <button (click)="showAnswer()">Display The Answer</button> <button (click)="clickme()">Get a new question</button>
+
+    <button [routerLink] = "['/quizzes', id, 'details']">Back to this Quizzes' Details</button>
+</div>
+<div *ngIf="show">
+    <h1 class="hardquestion">Answer</h1> 
+    <h1 class="questiondiv">{{term.answer}}</h1>
+    <br>
+    <h1 id="difficulty"> Was this answer easy or difficult to rememember?</h1>
+    <button (click)="easyFunction(term)">Easy</button>
+    <button (click)="hardFunction(term)">Difficult</button>
+    <button (click)="hideme()">Hide answer</button>
+</div> 
+<hr>
+<hr>
+<hr>
+

@@ -1,0 +1,59 @@
+#chalk {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    max-height: 300px;
+    margin-left: 70px;
+}
+#notchalk {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    margin-left: 100px;
+}
+button{
+    margin: auto 0;
+    height: 70px;
+	background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right: 40px;
+	margin-left:4px;
+	vertical-align:top;
+	color:black;
+	text-decoration: none;
+	border-radius:10px;
+	border-radius:5px;
+    margin-top:15px;
+    margin-bottom: 20px;
+	text-align: center;
+	line-height:30px;
+	font-size:25px;
+    width: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-stretch: extra-condensed;
+    display: inline-block;
+}
+button:hover{
+    background-color: rgb(72, 176, 236);
+    color: white;
+}
+
+ h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+    width:900px;
+    text-align:center;
+    margin-top: 30px;
+}
+#colortosee{
+    width:200px;
+    height: 200px;
+    display: inline-block;
+    margin-left:50px;
+}

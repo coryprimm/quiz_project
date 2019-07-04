@@ -1,0 +1,27 @@
+<h1>{{quiz.title}}</h1> 
+<div id="notchalk">
+    <button [routerLink] = "['/quizzes', quiz._id, 'add']">Add to Quiz</button>
+    
+    <button [routerLink] = "['/quizzes', quiz._id, 'umbrella']">See whole list</button>
+   
+    <button [routerLink] = "['/quizzes', quiz._id, 'quizyourself']">Random Quiz</button>
+   
+    
+</div>
+<div id="colortosee">
+        <button [routerLink] = "['/quizzes', quiz._id, 'easyquiz']">Easy Quiz</button>
+  
+        <button [routerLink] = "['/quizzes', quiz._id, 'hardquiz']">Hard Quiz</button>
+       
+        <button [routerLink] = "['/quizzes']">Back to All Quizzes</button>
+</div>
+<!-- <div id = "chalk">
+        <img src="assets/images/chalk.png" alt="picture of a brain with a door to its core">
+</div> -->
+
+
+
+<!-- <div id = "divide">
+        <img src="assets/images/great_divide.png" alt="pic of fancy line">
+</div> -->
+

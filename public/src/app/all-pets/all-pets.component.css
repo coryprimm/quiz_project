@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Noto+Sans|Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 231, 231);
+}
+/* html body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+} */
+#brainimagecont {
+    width: 900px;
+  height: 500px;
+  display: inline-block;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#instructions {
+    text-align: left;
+    vertical-align: top;
+    padding-top:50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#intro{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-weight: lighter;
+
+}
+#intro >h3{
+    margin-top: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    vertical-align: top;
+    padding-bottom:30px;
+    padding-top:15px;
+    font-weight: lighter;
+
+}
+#third_line{
+    text-align: center;
+}
+#second_line{
+    padding-top:60px;
+    text-align: center;
+}
+#fourth_line{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+#fourth_line> h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#select_area{
+    margin-left: 250px;
+    text-align: center;
+    text-align: center;
+    display: inline-block;
+}
+#buttonscontained > .cute_button > h1 > button{
+    margin: auto 0;
+	background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:40px;
+    padding-right: 40px;
+	margin-left:4px;
+	vertical-align:top;
+	color:black;
+	text-decoration: none;
+	border-radius:10px;
+	border-radius:5px;
+	margin-top:15px;
+	text-align: center;
+	line-height:30px;
+	font-size:25px;
+    display:inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-stretch: extra-condensed;
+}
+#buttonscontained > .cute_button > h1 > button:hover{
+    background-color: rgb(72, 176, 236);
+    color: white;
+}
+#create_button{
+    margin: auto 0;
+    margin-bottom: 30px;
+}
+#create_button > button{
+    margin: auto 0;
+	background-color:white;
+	height:60px;
+	width:310px;
+	margin-left:4px;
+	vertical-align:top;
+	color:black;
+	text-decoration: none;
+	border-radius:10px;
+	border-radius:5px;
+	margin-top:15px;
+	text-align: center;
+	line-height:30px;
+	font-size:25px;
+    display:inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-stretch: extra-condensed;
+    
+}
+#create_button > button:hover{
+    background-color: rgb(72, 176, 236);
+    color: white;
+}
+#second_line > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 30px;
+}
+ul{
+    margin-top: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    vertical-align: top;
+    padding-bottom:30px;
+}
+li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;  
+}
+#ul_div > ul > li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+#ul_div{
+    margin-top: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    vertical-align: top;
+    padding-bottom:30px;
+}
+#for_font > h2{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-stretch: extra-condensed;
+    font-size: 30px;
+}
+/* #not_scrollbar {       //scroll for box in box
+    overflow: scroll;
+    height: 300px;
+    float: left;
+} */

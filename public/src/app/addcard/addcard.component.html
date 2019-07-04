@@ -1,0 +1,27 @@
+<h1 id="titleh1"> {{quiz.title}} Add Page</h1>
+
+<div class=centerme>
+<form (submit) = "addTheseToExistingFile(quiz)">
+  <div>
+      <div class="padtitles">
+    <label class=creation_titles for="question">QUESTION  </label><br>
+    </div>
+    <textarea id = "questionsize" type="text" name="newTerm.question" [(ngModel)]="newTerm.question" #newTerm.question='ngModel' placeholder='Type Question' ></textarea>
+  </div>
+  <div>
+      <div class="padtitles">
+    <label class=creation_titles for="answer">ANSWER </label><br>
+    </div>
+    <textarea id = "answersize" type="text" name="newTerm.answer" [(ngModel)]="newTerm.answer" #newTerm.answer='ngModel' placeholder='Type Answer'></textarea>
+    <br>
+  </div>
+  <br>
+  <br>
+  <div class="padentries">
+  <input id="addquiz"  type="submit" value="Add Terms">
+  </div> 
+  <div class="padentries">
+  <button id="backbutton" [routerLink] = "['/quizzes', quiz._id, 'details']" >{{quiz.title}} page</button>
+</div>
+
+</form>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Noto+Sans|Roboto+Condensed&display=swap');
+
+
+#umbrellatitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 30px;
+    width:900px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top:20px;
+    margin-top:50px;
+}
+#totalcount{
+    margin-top: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    vertical-align: top;
+    width:900px;
+    text-align: center;
+}
+.easyquestion{
+    background-color:rgb(9, 116, 158);
+    width: 130px;
+    height: 24px;
+    margin-left:20px;
+    padding:10px;
+    text-align:center;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    color: white;
+}
+.hardquestion{
+    background-color:rgb(148, 13, 13);
+    width: 130px;
+    height: 24px;
+    color: white;
+    margin-left:20px;
+    padding:10px;
+    text-align:center;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+}
+#entree{
+    margin-top: 50px;
+}
+.questiondiv{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:20px;
+    margin-bottom:2px;
+}
+.answerdiv{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    vertical-align: top;
+    margin-left:20px;
+    margin-top: 2px;
+    
+}
+button{
+    margin: auto 0;
+	background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:40px;
+    padding-right: 40px;
+	margin-left:4px;
+	vertical-align:top;
+	color:black;
+	text-decoration: none;
+	border-radius:10px;
+	border-radius:5px;
+	margin-top:15px;
+	text-align: center;
+	line-height:30px;
+	font-size:25px;
+    display:inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-stretch: extra-condensed;
+}
+#centerthebutton{
+    width: 900px;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(72, 176, 236);
+    color: white;
+}

@@ -1,0 +1,21 @@
+<h1 id="umbrellatitle"> All Questions/Terms from {{allTerms[0].quiztitle}}</h1>
+<h2 id="totalcount"> {{allTerms.length}} TOTAL </h2>
+
+<div id="entree" *ngFor="let singleterm of allTerms">
+  <div *ngIf="singleterm.memory == 'easy'; else elseBlock">
+  
+      <h1 class="easyquestion"> Easy Question</h1>
+    
+  </div>
+  <ng-template #elseBlock>
+    <h1 class="hardquestion">Hard Question</h1>
+  </ng-template>
+  <h1 class="questiondiv">{{singleterm.question}}</h1>
+  <h1 class="answerdiv"> {{singleterm.answer}}</h1> 
+</div>
+
+<br>
+<br>
+<div id="centerthebutton">
+  <button [routerLink] = "['/quizzes']">Back to All Quizzes</button>
+</div>
